@@ -44,7 +44,7 @@ const LoginOrSignupForm = ({ type }: LoginOrSignupFormProps) => {
     <div>
       <div className="flex flex-col gap-6">
         <Card>
-          <CardHeader>
+          <CardHeader className="flex flex-col items-start">
             <CardTitle>{keyword} to your account</CardTitle>
             <CardDescription>
               {type === "login"
